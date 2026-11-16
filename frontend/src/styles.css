@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; font-family: 'DM Sans', sans-serif; background: #100d17; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; background: #100d17; color: #f8f6fb; }
+button, textarea, input { font: inherit; }
+button { cursor: pointer; }
+::selection { background: rgba(169, 139, 255, .32); }
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: #3a3444; border-radius: 999px; }
+.glass { background: linear-gradient(145deg, rgba(33, 27, 44, .88), rgba(23, 19, 31, .96)); border: 1px solid rgba(183, 163, 220, .09); }
+.grain { background-image: radial-gradient(rgba(255,255,255,.11) .6px, transparent .6px); background-size: 5px 5px; }
+.scrollbar-hide::-webkit-scrollbar { display: none; }

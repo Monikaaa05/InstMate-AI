@@ -1,0 +1,16 @@
+.env
+backend/.env
+frontend/.env
+frontend/node_modules/
+frontend/dist/
+backend/.venv/
+.venv/
+backend/__pycache__/
+backend/instamate/**/__pycache__/
+*.py[cod]
+*.db
+data/
+/work/node-v22.23.3-win-x64/
+/work/node-v22.23.3-win-x64.zip
+/work/SHASUMS256-v22.23.3.txt
+.DS_Store
